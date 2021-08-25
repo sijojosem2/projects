@@ -1,0 +1,29 @@
+
+
+h1 {
+    text-align:center;
+}
+
+table#table {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+  }
+  tr,td {text-align:left;}
+
+table#table2 {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+  }
+  tr,td {text-align:left;}
+
+input[type=submit] {
+    padding:5px 55px;
+    border:5 none;
+    border-radius: 15px;
+    text-align:center;
+    background-color: #9AE5F8;
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<link rel="stylesheet" href="static/css/styles.css">
+<h1><label for="Property_stats">PROPERTY STATS RESULTS</label></h1>
+<table id="table" border = 1 >
+   {% for key, value in result.items() %}
+   <tr >
+      <th> {{ key }} </th>
+      <td> {{ value }} </td>
+   </tr>
+   {% endfor %}
+	<tr >
+      <th> Result </th>
+      <td> {{vals}} </td>
+   </tr>
+
+
+</table>
+<p>
+<table id="table"2><td><a href="{{get_home_url}}"><input type="submit" value = "Back"  align="center"/></a></td></table>
+</p>

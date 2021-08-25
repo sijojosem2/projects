@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <body>
+      <meta charset="UTF-8">
+      <h1><label for="Property_stats">PROPERTY STATS </label></h1>
+      <link rel="stylesheet" href="static/css/styles.css">
+      <form action = "{{get_stats_url}}" method = "POST">
+         <p>
+         <table id="table">
+            <tr>
+               <td>
+                  Column
+               </td>
+               <td>
+					<input type = "text" name = "column" />
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Method
+               </td>
+               <td>
+	               <select type ="text" name = "method">
+					<option value="values">Unique Values</option>
+					<option value="common">Common Values</option>
+	               </select>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p><input type = "submit" value = "submit" /></p>
+               </td>
+            </tr>
+         </table>
+         </p>
+      </form>
+
+
+   </body>
+</html>

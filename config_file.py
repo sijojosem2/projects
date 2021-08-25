@@ -8,3 +8,5 @@ ENV_CONFIG={
     'GET_HOME_URL':'https://mc-simple-req.herokuapp.com/home',
     'TABLE_NAME':'mc_locations'
 }
+
+

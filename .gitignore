@@ -144,4 +144,3 @@ cython_debug/
 
 
 # Ignore config file
-/config_file.py

@@ -1,3 +1,8 @@
+Deployed Endpoints:
+        HTML Mode   : https://mc-simple-req.herokuapp.com/home
+        GET Mode    : https://mc-simple-req.herokuapp.com/lotarea/values
+        POST mode   : curl --location --request POST 'https://mc-simple-req.herokuapp.com/get-stats/api' --data-raw '{ "column": "alley", "method": "common" }
+
 Environment configuration:
 
         The API is deployed in Heroku using the gunicorn WSGI framework. The Procfile contains the initialisation script for the gunicorn env. For cross 

@@ -1,4 +1,5 @@
 Deployed Endpoints:
+
         HTML Mode   : https://mc-simple-req.herokuapp.com/home
         GET Mode    : https://mc-simple-req.herokuapp.com/lotarea/values
         POST mode   : curl --location --request POST 'https://mc-simple-req.herokuapp.com/get-stats/api' --data-raw '{ "column": "alley", "method": "common" }
